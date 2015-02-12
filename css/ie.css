@@ -1,0 +1,25 @@
+/* IE Specific */
+
+.ie .cover {
+	background-color: #000000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.ie .artwork {
+	position: fixed;
+	top:50px;
+	left:0;
+	right:0;
+}
+.ie .info {
+	position: fixed;
+	top:50px;
+	left:0;
+	right:0;
+	margin: 0 auto;
+}
+
+.ie .artwork img {
+	width:500px;
+	height:500px;
+}

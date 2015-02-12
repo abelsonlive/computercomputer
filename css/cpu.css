@@ -1,0 +1,219 @@
+/* Villagers Launch page */
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+html,body {
+	width: 100%;
+  height: 100%;
+  font-family: Monaco;
+}
+
+body {
+  border:12px solid #000;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #52ccaf;
+  overflow: hidden;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+.cover {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 10;
+  display:none;
+  background-color: rgba(0,0,0,0.8);
+  width:100%;
+  height:100%;
+}
+.logo {
+  width:180px;
+  height:auto;
+}
+
+a {
+  color: #000000;
+  transition: 1s;
+  text-decoration: none;
+}
+a:hover {
+  color:#6B6B6B;
+}
+.menu {
+  border:12px solid #000;
+  padding:20px;
+  width:736px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  font-size:14px;
+  color:#000000;
+}
+.pre {
+  color:#6B6B6B;
+  padding: 15px;
+}
+.menuButton {
+  padding: 15px;
+}
+.videoContainer {
+  z-index: 0;
+}
+iframe {
+  border:12px solid #000;
+}
+.artworkPrompt, .infoPrompt {
+  cursor: pointer;
+}
+.artwork, .info {
+  font-size: 20px;
+  display: none;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  color:#ffffff;
+  z-index: 20;
+}
+.artwork p {
+  margin:20px;
+}
+.artwork a {
+  color:#ffffff;
+  text-decoration: underline;
+}
+.artwork img {
+  width:70%;
+  height:auto;
+}
+.info {
+  width:50%;
+}
+.info img {
+  width:40%;
+  float:right;
+}
+.info p {
+  width:55%;
+  float:left;
+  font-size: 18px;
+  line-height: 22px;
+}
+.info a {
+  color:#ffffff;
+  text-decoration: underline;
+}
+.socials {
+  position:fixed;
+  top:20px;
+  right:20px;
+}
+.socials img {
+  width:40px;
+  height:auto;
+}
+.notrack {
+  display:none;
+}
+/* Mobile styles */
+
+@media only screen and (max-width: 1366px) {
+  .info {
+    width:85%;
+  }
+  .info p {
+    width:60%;
+    font-size:14px;
+  }
+  .info img {
+    width:36%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .info {
+    width:95%;
+  }
+  .tracklisting {
+    display:none;
+  }
+  .notrack {
+    display:block;
+  }
+  .info img {
+  }
+}
+@media only screen and (max-width: 960px) {
+  body {
+    overflow: visible;
+    /*border:none;*/
+    height:auto;
+    min-height: 100%;
+    padding-bottom:20px;
+    border:6px solid #000;
+  }
+  .cover {
+    width:0;
+    height:0;
+  }
+  .menu {
+    width: 80%;
+    border:6px solid #000;
+  }
+  .artwork, .info {
+    margin:0 auto;
+    padding:20px;
+    width:80%;
+    border:6px solid #000;
+    background-color: #ffffff;
+    color:#000000;
+    position:static;
+    transform:none;
+    -webkit-transform:none;
+    margin-bottom:20px;
+    float:none;
+  }
+  .videoContainer {
+    margin: 0 auto;
+    border:6px solid #000;
+    width:80%;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  iframe {
+    margin:0 auto;
+    border: none;
+    width:98%;
+    height:200px;
+  }
+  .artwork p {
+    margin-bottom:0;
+  }
+  .info a, .artwork a {
+  color:#000000;
+  text-decoration: underline;
+  }
+  .info p, .info img {
+    display:block;
+    margin:10px auto;
+    float:none;
+    width:95%;
+  }
+.menu a {
+    line-height: 30px;
+  }
+  .socials {
+    position: static;
+    margin:20px auto 0;
+  }
+}
+
