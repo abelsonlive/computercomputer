@@ -21,10 +21,9 @@ body {
   -webkit-box-sizing:border-box;
 }
 h1 {
-  margin-top: 10px;
+  margin-top: 8px;
   margin-bottom: 10px;
-  font-size: 36px;
-  font-weight: 20px;
+  font-size: 44px;
 }
 .cover {
   position: absolute;
@@ -37,7 +36,7 @@ h1 {
   height:100%;
 }
 .logo {
-  width:180px;
+  width:250px;
   height:auto;
 }
 
@@ -125,11 +124,11 @@ a:hover {
   }
 
   .logo {
-    width: 160px;
+    width: 260px;
   }
 
   .name {
-    font-size: 32px;
+    font-size: 52px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -146,11 +145,11 @@ a:hover {
   }
 
   .logo {
-    width: 150px;
+    width: 220px;
   }
 
   .name {
-    font-size: 30px;
+    font-size: 44px;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -186,11 +185,11 @@ a:hover {
   }
 
   .logo {
-    width: 120px;
+    width: 140px;
   }
 
   .name {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .info a {
