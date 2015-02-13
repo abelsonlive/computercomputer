@@ -24,6 +24,7 @@ h1 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 36px;
+  font-weight: 20px;
 }
 .cover {
   position: absolute;
@@ -122,6 +123,14 @@ a:hover {
   .info img {
     width:36%;
   }
+
+  .logo {
+    width: 160px;
+  }
+
+  .name {
+    font-size: 32px;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .info {
@@ -134,6 +143,14 @@ a:hover {
     display:block;
   }
   .info img {
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .name {
+    font-size: 28px;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -166,6 +183,14 @@ a:hover {
     -webkit-transform:none;
     margin-bottom:20px;
     float:none;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .name {
+    font-size: 20px;
   }
 
   .info a {
